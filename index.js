@@ -1,7 +1,7 @@
 "use strict";
 //////// HELPING FUNCTIONS
 function randomBusinessName() {
-    var adjectives = ["Blue", "Red", "Green", "Purple", "Orange", "White", "Trusty", "Speedy", "Enigmatic", "Fly", "Golden", "Sturdy", "Graceful", "Rapid", "Robust", "American", "British", "Asian", "European", "Indian", "Italian", "Australian", "Chinese", "Russian", "Nordic", "Southern", "Northern", "Southwest", "Express", "Paper", "Malaysia", "Thai"];
+    var adjectives = ["Blue", "Red", "Green", "Purple", "Orange", "White", "Magenta", "Trusty", "Speedy", "Enigmatic", "Fly", "Golden", "Sturdy", "Graceful", "Rapid", "Robust", "American", "British", "Asian", "European", "Indian", "Italian", "Australian", "Chinese", "Russian", "Nordic", "Southern", "Northern", "Southwest", "Express", "Paper", "Malaysia", "Thai"];
     var nouns = ["Planes", "Airways", "Skies", "Air", "Airlines", "Flyers", "Jets", "Pilots", "Air Transport", "Helicopters", "Cargo"];
     var name = `${randomChoice(adjectives)} ${randomChoice(nouns)}`;
     if (Math.random() < 0.3) {
