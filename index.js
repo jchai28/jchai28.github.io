@@ -10,7 +10,7 @@ function randomBusinessName() {
     return name;
 }
 function randomPlaneName() {
-    var name = ["Boeing 737-800", "Boeing 737-900", "Boeing 737 Max 9", "Boeing 747", "Boeing 757", "Boeing 767", "Boeing 777", "Boeing 777-200", "Boeing 777X", "Boeing 777-300", "Boeing 787 Dreamliner", "Airbus A320", "", ""];
+    var name = ["Boeing 737-800", "Boeing 737-900", "Boeing 737 Max 9", "Boeing 747", "Boeing 757", "Boeing 767", "Boeing 777", "Boeing 777-200", "Boeing 777X", "Boeing 777-300", "Boeing 787 Dreamliner", "Airbus A320", "Airbus A330", "Airbus A350", "Airbus A360"];
     return ` ${randomChoice(name)}`;
 }
 function prettyCashString(cash) {
